@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.home {
+  display: flex;
+  gap: 32px;
+}
+
+.home a {
+  font-size: 20px;
+  color: #2b2b2b;
+}
+
+.nav-img {
+  display: flex;
+  gap: 22px;
+}
+
+.nav-img img {
+  width: 20px;
+  height: 20px;
+}
