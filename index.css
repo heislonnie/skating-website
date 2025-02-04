@@ -32,11 +32,23 @@ body {
   gap: 22px;
 }
 
+.nav-menu {
+  display: none;
+}
+
+.nav-menu img {
+  width: 40px;
+  height: auto;
+}
 .nav-img img {
   width: 20px;
   height: 20px;
 }
 
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
 .hero {
   display: flex;
   justify-content: space-between;
@@ -504,4 +516,193 @@ body {
   color: #fff;
   /* margin-bottom: 200px; */
   font-size: 22px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+  .nav-img {
+    width: 5px;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .top_icon {
+    width: 90px;
+  }
+  .hero-left h1 {
+    font-size: 52px;
+  }
+
+  .hero-left a {
+    font-size: 16px;
+  }
+
+  .banner_img {
+    width: 400px;
+  }
+
+  .arrow img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .skating-class h1 {
+    font-size: 24px;
+  }
+
+  .skating-class p {
+    font-size: 16px;
+  }
+
+  .skateboard {
+    flex-direction: column;
+  }
+
+  .read {
+    display: none;
+  }
+
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about h1 {
+    font-size: 20px;
+  }
+
+  .about p {
+    font-size: 16px;
+    width: 300px;
+  }
+
+  .about h2 {
+    display: none;
+    font-size: 16px;
+  }
+
+  .about-img {
+    width: 350px;
+  }
+
+  .sakt-1 h1 {
+    font-size: 24px;
+    padding: 10px 10px;
+  }
+
+  .skating-video {
+    padding: 20px;
+    /* flex-direction: column; */
+  }
+
+  .sakt-img {
+    flex-direction: column;
+  }
+
+  .skate-shop {
+    flex-direction: column;
+  }
+
+  .skate-shop img {
+    width: 300px;
+    height: auto;
+  }
+
+  .skate-shop-1 h1 {
+    font-size: 24px;
+  }
+
+  .skate-shop-1 p {
+    font-size: 12px;
+    width: 300px;
+  }
+
+  .skate-shop-1 a {
+    font-size: 12px;
+  }
+
+  .testimonial h3 {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .review {
+    flex-direction: column;
+  }
+
+  .review-2 {
+    padding: ;
+  }
+
+  .contact-us {
+    flex-direction: column;
+  }
+
+  .news-div {
+    flex-direction: column;
+  }
+
+  .link {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .link img {
+    width: 20px;
+    height: auto;
+  }
+
+  .link h1 {
+    font-size: 20px;
+  }
+
+  .link-1 {
+    display: none;
+  }
+
+  .copyright {
+    padding: 10px;
+  }
+
+  .copyright p {
+    font-size: 14px;
+  }
+
+  .contact {
+    border: none;
+  }
+
+  .socials {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-us {
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+  }
+
+  .newsletter {
+    margin-top: -70px;
+  }
+
+  .social-img a {
+    display: flex;
+    gap: 10px;
+  }
 }
